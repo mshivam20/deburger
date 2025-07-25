@@ -1,0 +1,37 @@
+.container{
+    width: 75%;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+   
+}
+body{
+    background: linear-gradient(90deg,black 25%,rgba(1, 1, 1, 0.855)50%,rgb(8, 8, 8)75%);;
+    color:rgba(208, 213, 213, 0.841);
+}
+.heading{
+   font-family: "Bitcount Prop Single", system-ui;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+  font-size: 150px;
+  background:linear-gradient(90deg,rgb(218, 227, 199)25%,rgb(221, 208, 186)50%,rgb(209, 212, 194));
+  background-size: cover;
+  background-clip:text;
+  color: transparent;
+  animation: animate 10s linear infinite;
+  
+}
+@keyframes animate {
+  to{
+    background-position-x:-200px
+}}
+
+ul.examples{
+    list-style: none;
+}
+

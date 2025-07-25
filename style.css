@@ -78,3 +78,14 @@ p.get{
   background-color: rgba(194, 192, 191, 0.774);
   border-radius: 5px;
 }
+
+.usage{
+
+  list-style: decimal;
+}
+img{
+  border-radius: 8px;
+}
+ol.contributing{
+  list-style-type:decimal;
+}

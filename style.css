@@ -70,3 +70,11 @@ ol{
 ol>li{
   padding: 19px;
 }
+.installation{
+  list-style-type: decimal;
+}
+p.get{
+  padding: 20px;
+  background-color: rgba(194, 192, 191, 0.774);
+  border-radius: 5px;
+}

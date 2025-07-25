@@ -5,33 +5,50 @@
    
 }
 body{
-    background: linear-gradient(90deg,black 25%,rgba(1, 1, 1, 0.855)50%,rgb(8, 8, 8)75%);;
-    color:rgba(208, 213, 213, 0.841);
+    background: linear-gradient(45deg,rgb(234, 228, 228) 25%,rgba(212, 208, 208, 0.933)50%,rgb(187, 184, 184)75%);;
+    color:rgba(0, 0, 0, 0.882);
 }
 .heading{
-   font-family: "Bitcount Prop Single", system-ui;
-  font-optical-sizing: auto;
-  font-weight:400;
-  font-style: normal;
-  font-variation-settings:
-    "slnt" 0,
-    "CRSV" 0.5,
-    "ELSH" 0,
-    "ELXP" 0;
-  font-size: 150px;
-  background:linear-gradient(90deg,rgb(218, 227, 199)25%,rgb(221, 208, 186)50%,rgb(209, 212, 194));
+    font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  
+  font-size: 120px;
+  background:linear-gradient(90deg, rgb(222, 140, 51)25%,rgba(104, 42, 42, 0.962)50%,rgba(169, 137, 77, 0.903));
   background-size: cover;
   background-clip:text;
   color: transparent;
-  animation: animate 10s linear infinite;
+}
+.burger_img{
+  width: 160px;
+  height: 160px;
+  margin-right: 20px;
+ 
+}
+p{
+  font-family: monospace;
+  font-optical-sizing: auto;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
   
 }
-@keyframes animate {
-  to{
-    background-position-x:-200px
-}}
+h2{
+     font-family: "Advent Pro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-size: 30px;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
 
 ul.examples{
     list-style: none;
+   
+}
+ol{
+  font-family: monospace;
+  font-size: 20px;
 }
 

@@ -158,3 +158,12 @@ ol.contributing{
   }
   
 }
+.Link{
+  border-radius: 5px;
+  background: rgb(21, 53, 77);
+}
+.link{
+font-size: 15px;
+padding: none;
+color: rgba(232, 234, 236, 0.83);
+}

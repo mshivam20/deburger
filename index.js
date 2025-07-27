@@ -38,6 +38,10 @@ $(".next").on("click",function(){
     
 });
 
+$(".heading").on("click",function(){
+    window.open('https://deburger.omnarkhede.tech/','_blank');
+})
+
 
 
 
